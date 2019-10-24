@@ -1,0 +1,84 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 106223136,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TrivagoStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Enter the information on the page and validate the type of reservation what de user whant",
+        "description": "",
+        "id": "reservation-hotel;enter-the-information-on-the-page-and-validate-the-type-of-reservation-what-de-user-whant",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8126669897,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Open the browser and go to the page",
+            "match": {
+              "location": "TrivagoStepDefinitions.iOpenTheBrowserAndGoToThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16015441225,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter all the information and navegate for the page",
+            "match": {
+              "location": "TrivagoStepDefinitions.iEnterAllTheInformationAndNavegateForThePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3652140450,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate the information of the hotel",
+            "match": {
+              "location": "TrivagoStepDefinitions.iValidateTheInformationOfTheHotel()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@trivago-automatizacion"
+          }
+        ]
+      }
+    ],
+    "name": "Reservation hotel",
+    "description": "  I want to reserver an hotel in the page of trivago.com",
+    "id": "reservation-hotel",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/trivago.feature",
+    "tags": [
+      {
+        "name": "@trivago-automatizacion",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
